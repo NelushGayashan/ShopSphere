@@ -1,5 +1,4 @@
-// src/App.jsx
-import React from 'react';
+import React, { useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import { ToastContainer } from 'react-toastify';
 import { useSelector } from 'react-redux';
@@ -14,6 +13,11 @@ import './App.css';
 
 const App = () => {
   const user = useSelector((state) => state.auth.user); 
+
+  // Set the tab title as "ShopSphere" when the app loads
+  useEffect(() => {
+    document.title = "ShopSphere";
+  }, []);
 
   // Component to handle protected routes
   const ProtectedRoute = ({ children }) => {
