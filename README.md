@@ -204,19 +204,19 @@ ShopSphere is open-source software licensed under the MIT license.
 Here are some screenshots of the ShopSphere application in action:
 
 ### Registration Page
-![Registration Page]![image](https://github.com/user-attachments/assets/71da69a0-4f2f-4b90-8e12-08afd0d50b69)
+![image](https://github.com/user-attachments/assets/71da69a0-4f2f-4b90-8e12-08afd0d50b69)
 
 ### Login Page
-![Login Page]![image](https://github.com/user-attachments/assets/c9ddd154-f660-4bd4-ade0-fbf9ad833ca1)
+![image](https://github.com/user-attachments/assets/c9ddd154-f660-4bd4-ade0-fbf9ad833ca1)
 
 ### Products Page
-![Account Page]![image](https://github.com/user-attachments/assets/cfd464d9-b799-4f1f-ac58-18f353a30bb9)
+![image](https://github.com/user-attachments/assets/cfd464d9-b799-4f1f-ac58-18f353a30bb9)
 
 ### Product Item Page
-![Cart Page]![image](https://github.com/user-attachments/assets/b031911a-1d0f-4985-9211-382f81859102)
+![image](https://github.com/user-attachments/assets/b031911a-1d0f-4985-9211-382f81859102)
 
 ### Cart Page
-![Cart Page]![image](https://github.com/user-attachments/assets/1cac7a96-97ab-4e65-96d6-547b6de2d6ff)
+![image](https://github.com/user-attachments/assets/1cac7a96-97ab-4e65-96d6-547b6de2d6ff)
 
 ## Live Demo
 
