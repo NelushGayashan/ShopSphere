@@ -7,7 +7,7 @@ import { toast } from 'react-toastify';
 import '../tailwind.css';
 
 const Header = () => {
-  const user = useSelector((state) => state.auth.user); // Get user state from Redux
+  const user = useSelector((state) => state.auth.user); 
   const dispatch = useDispatch();
   const navigate = useNavigate();
   
@@ -17,19 +17,16 @@ const Header = () => {
   const handleLogout = () => {
     dispatch(logout());
     toast.success('You have successfully logged out!');
-    navigate('/login'); // Redirect to login page
+    navigate('/login'); 
   };
 
   const handleCartClick = () => {
     if (!user) {
-      // If the user is not logged in, show the cart dropdown with a message
       setCartDropdownVisible(true);
       setTimeout(() => {
-        // Hide the dropdown after a few seconds
         setCartDropdownVisible(false);
-      }, 3000); // Hides after 3 seconds
+      }, 3000); 
     } else {
-      // If logged in, navigate to cart page
       navigate('/cart');
     }
   };

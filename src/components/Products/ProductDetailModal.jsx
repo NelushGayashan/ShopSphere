@@ -98,8 +98,8 @@ const ProductDetailModal = ({ open, onClose, selectedProduct }) => {
       fullWidth
       sx={{
         animation: `${fadeIn} 0.5s ease-out`,
-        backdropFilter: 'blur(10px)',  // Increased blur effect for a refined look
-        backgroundColor: 'rgba(0, 0, 0, 0.5)', // Darken background to make content stand out
+        backdropFilter: 'blur(10px)',  
+        backgroundColor: 'rgba(0, 0, 0, 0.5)',
       }}
     >
       <DialogTitle sx={{ fontWeight: 'bold', textAlign: 'center', fontSize: '2.2rem', color: 'primary.main', backgroundColor: '#d3d3d3',}}>

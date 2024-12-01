@@ -1,9 +1,9 @@
 // src/components/Layout.jsx
 import React from 'react';
-import PropTypes from 'prop-types'; // Import prop-types for type checking
+import PropTypes from 'prop-types'; 
 import { Container, Box } from '@mui/material';
 import Header from './Header';
-import Footer from './Footer'; // Import Footer component
+import Footer from './Footer'; 
 
 const Layout = ({ children }) => (
   <div className="flex flex-col min-h-screen"> {/* Add flex container with min-h-screen */}
@@ -23,7 +23,7 @@ const Layout = ({ children }) => (
 );
 
 Layout.propTypes = {
-  children: PropTypes.node.isRequired, // Ensures 'children' is passed and is a valid React node
+  children: PropTypes.node.isRequired, 
 };
 
 export default Layout;
