@@ -2,6 +2,11 @@
 
 **ShopSphere** is a modern, feature-rich e-commerce web application designed to provide a seamless online shopping experience. The app's core functionality includes user authentication, product browsing, and a shopping cart that allows users to easily add, update, or remove items. Built using **React** for the frontend and **Redux** for state management, **ShopSphere** ensures a smooth and responsive user interface with the help of **Material UI**. 
 
+## 🚀 Live Demo
+
+Check out the live version here:  
+👉 [https://smartloancalculator.netlify.app/](https://mellow-sfogliatella-bdb7bc.netlify.app/register)
+
 ## Table of Contents
 
 - [Features](#features)
